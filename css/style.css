@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+header {
+    width: 100vw;
+}
+
+
+footer {
+    width: 100vw;
+    height: 5vh;
+}
+
+
+
+main {
+    width: 100vw;
+}
+
+span {
+    margin: 5px 10px;
+    padding: 10px 25px;
+    display: inline-block;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+span img {
+    max-width: 700px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(3, 3, 50);
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 129);
+    font-family: 'Rubik', sans-serif;
+    margin: 20px;
+    font-size: 2rem;
+}
+
+/* .left {
+    width: 48%;
+    float: left;
+    font-size: 1rem;
+}
+
+.right {
+    width: 48%;
+    float: right;
+    font-size: 1rem;
+} */
+
+.travel {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+nav div {
+    text-align: end;
+}
+
+nav div ul li {
+    padding: 20px;
+    margin: 5px;
+    max-width: 10%;
+    height: 5%;
+    background-color: rgba(250, 235, 215, 0.075);
+    color: grey;
+    display: inline-block;
+}
+
+#bottom {
+    height: 10vh;
+}
+
+#register {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: rgba(22, 21, 20, 0.007);
+    border: outset;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    max-width: 600px;
+    line-height: 1.6;
+    margin: auto;
+    align-content: center;
+    padding-left: 10px;
+}
+
+.center {
+    margin: auto;
+    /* text-align: center; */
+    align-content: center;
+    padding-left: 10px;
+
+}
+
+.center_img {
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+form {
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    line-height: 1.4;
+    background-color: aliceblue;
+}
+
+label {
+    text-decoration: solid;
+}
+
+#question {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    overflow: scroll;
+}
+
+video {
+    width: 800px;
+}
+
+footer {
+    height: 5% !important;
+}
+
+#about_us {
+    text-align: center !important;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+img {
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 19%, rgba(8, 41, 142, 1) 40%, rgba(6, 88, 173, 1) 65%, rgba(4, 41, 202, 1) 88%, rgba(0, 212, 255, 1) 100%);
+
+}
