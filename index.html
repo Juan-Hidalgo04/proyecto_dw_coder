@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Water in the Shoes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="../assets/images/Logo_water_in_the_shoes.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -29,18 +35,17 @@
     </header>
     
 
-    <main>
+    <main class="container justify">
         <h1>Welcome to our travel blog</h1>
 
-<!-- Test -->
         <!-- Most visited places -->
-        <section>
-            <a href=""><H2>Most Visited Places</H2></a>
-            <div>
-                <Span class="left">
-                    <img src="./assets/images/Most.visited.places.png" alt="Most Visited Places">
+        <section class="container">
+            <H2>Most Visited Places</H2>
+            <div class="row my-5">
+                <Span data-aos="zoom-out-left" class="col-md-5 order-md-first">
+                    <img src="./assets/images/Most_visited_places.jpg" alt="Most Visited Places">
                 </Span>
-                <span class="right">
+                <span class="col-md-7 order-md-last">
                     <p>
                         Travelers are always looking for inspiration to guide their adventures. Coming up with a list of places to visit can be challenging when you're staring at a globe.
                     </p>
@@ -54,7 +59,7 @@
                         If you're looking to start your own checklist of places to visit during your life, begin with our list of the top tourist attractions in the world.
                     </p>
                     <p>Keep in mind that the wonders have their own list, so we won't be incluiding those here.</p>
-                    <ol>
+                    <ol class="ms-5">
                         <li>Eiffel Tower, Paris</li>
                         <li>Statue of Liberty, New York City</li>
                         <li>The Acropolis, Athens</li>
@@ -75,24 +80,25 @@
                     </ol>
                 </span>
             </div>
-
         </section>
 
         <!-- Seven Wonder of the Modern World -->
-        <section>
-            <a href=""><h2>Seven Wonder of the Modern World</h2></a>
-            <div class="pair">
-                <span class="right">
+        <section class="container">
+            <h2>Seven Wonder of the Modern World</h2>
+            <div class="row my-5">
+                <span data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="col-md-5 order-md-last">
                     <img src="./assets/images/Moderr_world_wonders.png" alt="7_wonder_modern">
                 </span>
-                <span class="left">
+                <span class="col-md-7 order-md-first">
                     <p>
                         Inspired by the 7 wonders of the ancient world, in 2007 a public and international contest organized by the New Open World Corporation was held, where more than one hundred million votes were counted to publicize the new seven world monuments and tourist attractions who would bear this prestigious title.
                     </p>
                     <p>
                         The winners of this title were announced on July 7, 2007 at the Estádio da Luz, Lisbon (Portugal)
                     </p>
-                    <ul>
+                    <ul class="ms-5">
                         <li>The citadel of Machu Picchu in Cusco, Peru</li>
                         <li>Chichén Itzá in the Yucatan peninsula, Mexico</li>
                         <li>The Colosseum in Rome, Italy</li>
@@ -106,20 +112,20 @@
         </section>
 
         <!-- Seven Wonders of the Ancient World  -->
-        <section>
-            <a href=""><h2>Seven Wonders of the Ancient World</h2></a>
-            <div>
-                <span class="left">
+        <section class="container">
+            <h2>Seven Wonders of the Ancient World</h2>
+            <div class="row">
+                <span data-aos="fade-up" data-aos-duration="3000" class=" col-md-5 order-md-first">
                     <img src="./assets/images/ancient_wonders.png" alt="Ancient Wonders">
                 </span>
-                <span class="right">
+                <span class="col-md-7 order-md-last">
                     <p>
                         The Seven Wonders of the Ancient World, also known as the Seven Wonders of the World or simply the Seven Wonders, is a list of seven notable structures present during classical antiquity. The first known list of seven wonders dates back to the 2nd–1st century BC
                     </p>
                     <p>
                         The famous Greek historian Herodotus wrote of seven great architectural achievements. And although his writings did not survive, he planted seeds for what has become the list of the Seven Wonders of the Ancient World.
                     </p>
-                    <ul>
+                    <ul class="ms-5">
                         <li>Great Pyramid of Giza, Giza Necropolis, Egypt (2584–2561 BC)</li>
                         <li>Hanging Gardens of Babylon, Hillah or Nineveh, Iraq (600 BC)</li>
                         <li>Statue of Zeus at Olympia, Olympia, Greece (435 BC)</li>
@@ -150,6 +156,13 @@
         <div><small>Developed and designed by JCHS. &copy;2022. All rights reserved.</small></div>
         </nav>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
 
 </body>
 </html>
