@@ -16,16 +16,24 @@
 <body>
     <header>
         <img class="Travel" src="../assets/images/Heading_travel_tips.pdf.png" alt="Travel">
-        <nav>
-            <div><ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/destination.html">Destinations</a></li>
-                <li><a href="../pages/travel_tips.html">Travel Tips</a></li>
-                <li><a href="../pages/about.html">About</a></li>
-                <li><a href="../pages/contact_us.html">Contact Us</a></li>
-                <li><a href="#bottom">Social Media</a></li>
-        </ul></div>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Water in the Shoes</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  <a class="nav-link" href="../pages/destination.html">Destinations</a>
+                  <a class="nav-link" href="../pages/travel_tips.html">Travel Tips</a>
+                  <a class="nav-link" href="../pages/about.html">About</a>
+                  <a class="nav-link" href="../pages/contact_us.html">Contact Us</a>
+                  <a class="nav-link" href="#bottom">Social Media</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
     
 
@@ -124,19 +132,21 @@
     
     <footer id="bottom">
         <!-- Social media is just a visual view on how it would look -->
-        <nav>
-            <div>
-                <ul class="footer">
-                    <li><a target="_blank" href="https://www.facebook.com/"><img src="../assets/images/Social Media/Facebook_logo.png" alt="Facebook_logo" height="50"></a></li>
-                    <li><a target="_blank" href="https://www.instagram.com/"><img src="../assets/images/Social Media/Instagram_logo.png" alt="Instagram_logo" height="50"></a></li>
-                    <li><a target="_blank" href="https://twitter.com/"><img src="../assets/images/Social Media/Twitter_logo.png" alt="Twitter_logo" height="50"></a></li>
-                    <li><a target="_blank" href="https://pinterest.com/"><img src="../assets/images/Social Media/Pinterest_logo.png" alt="Pinterest_logo" height="50"></a></li>
-                </ul>
-            </div>
-            <div>
-                <small>Developed and designed by JCHS. &copy;2022. All rights reserved.</small>
-            </div>
-        </nav>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" target="_blank" aria-current="page" href="https://www.facebook.com/">Facebook</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://www.instagram.com/">Instagram</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://twitter.com/">Twitter</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://pinterest.com/">Pinterest</a>
+              </li>
+          </ul>
+          <div><small>Developed and designed by JCHS. &copy;2022. All rights reserved.</small></div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
